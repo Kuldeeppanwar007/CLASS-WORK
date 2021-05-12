@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+}
+div{
+
+    display: flex;
+    
+}
+th,td ,tr   {
+    border: 1.5px solid black;
+    text-align: left;
+    text-transform:uppercase;
+    font-size:small;
+    padding: 5px;
+    
+}
+
+table{
+    margin: auto;
+    padding-left: 50px;
+    border-collapse:collapse;
+    width: 30%;
+    border: 2px solid rgb(109, 109, 109);
+    margin-top: 80px;
+    box-shadow: 5px 5px 10px 4px rgba(189, 187, 187, 0.3);
+    /* margin-left: 50px; */
+}
+
+th{
+    background-color: rgba(109, 109, 109, 0.822);
+    text-decoration: underline;
+    font-weight: 100;
+    
+}
+
+.dark-row{
+    
+    background-color: rgba(116, 114, 114, 0.473);
+}
+
+.light-row{
+    
+    background-color:  rgba(116, 114, 114, 0.151);
+    
+}
+caption{
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+
+.navbar{
+    
+    background-color: #282A35;
+    box-shadow: 0 4px 10px 4px rgba(41, 20, 20, 0.3);
+    /* border-radius: 30px; */
+}
+
+ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+a{
+    float: left;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    
+    /* box-shadow: 0 4px 10px 4px rgba(255, 0, 0, 0.3); */
+    background-color: rgba(0, 0, 0, 0.548);
+    text-decoration:underline;
+    
+}
+
+
+
+
+i{
+    margin-right: 10px;
+    /* margin-left: 10px; */
+}
