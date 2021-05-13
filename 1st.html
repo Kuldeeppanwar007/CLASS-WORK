@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/f1b33bfa08.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/sclass/1st.css">
-    
+    <script src="/sclass/1st.js"></script>
+
     <title> my first page </title>
 </head>
 
@@ -16,18 +17,33 @@
 
     <header>
         <nav class="navbar">
-            <ul>
-                <li><a title="home" href="#"><i class="fas fa-home" ></i>home</a></li>
+            <ul> 
+                <li><div id="main">
+                    <button class="openbtn" id="openbtn" onclick="openNav()" ><i class="fas fa-bars"></i></button>  
+                    <button class="closebtn" id="closebtn" onclick="closeNav()" ><i class="fas fa-times"></i></i></button>  
+                </div></li>
+                <!-- <a href="javascript:void(0)" >×</a> -->
+                <li><a title="home" href="#"><i class="fas fa-home"></i>home</a></li>
                 <li><a href="#">learning</a></li>
                 <li><a href="#">Login/SignUp</a></li>
                 <li><a href="#">About Us </a></li>
 
             </ul>
         </nav>
+
+        
+        
     </header>
 
+    <div id="mySidebar" class="sidebar">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
 
-    <div>
+
+    <div id="table-div">
         <table>
             <caption>student list</caption>
 
