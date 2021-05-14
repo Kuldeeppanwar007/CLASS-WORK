@@ -6,7 +6,6 @@ body{
 }
 #welcome{
     margin-top: 150px;
-    margin-left: 200px;
     font-size: larger;
     text-align: center;
     transition: 0.5s;
