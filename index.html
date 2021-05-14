@@ -11,12 +11,13 @@
 
     <title> MY first page </title>
     <Script>
-        function openNav() {
+      function openNav() {
     document.getElementById("mySidebar").style.width = "200px";
     document.getElementById("main").style.marginLeft = "200px";
     document.getElementById("table-div").style.marginLeft = "200px";
     document.getElementById("openbtn").style.visibility="hidden";
     document.getElementById("closebtn").style.visibility="visible";
+    document.getElementById("welcome").style.marginLeft = "200px"; 
     
     
 }
@@ -27,7 +28,9 @@ function closeNav() {
     document.getElementById("table-div").style.marginLeft = "0";
     document.getElementById("openbtn").style.visibility="visible";
     document.getElementById("closebtn").style.visibility="hidden";
+    document.getElementById("welcome").style.marginLeft = "0"; 
 }
+
 
     </Script>
 </head>
@@ -60,7 +63,8 @@ function closeNav() {
         <a href="https://github.com/Kuldeeppanwar007" target="_blank"><i class="fab fa-github"></i>github</a>
         <a href="https://www.linkedin.com/in/kuldeep-panwar-0433a5184" target="_blank"><i class="fab fa-linkedin-in"></i>linkedin</a>
     </div>
-
+      
+    <div id="welcome"><h1>WELCOME</h1></div>
 
     <div id="table-div">
         <table>
