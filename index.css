@@ -58,9 +58,16 @@ caption{
     text-transform: uppercase;
 }
 
+/* #mysidebar{
+    margin-top: 0;
+    top: 0;
+} */
 
+header{
+    /* top: 0; */
+}
 .navbar{
-    
+
     background-color: #282A35;
     box-shadow: 0 4px 10px 4px rgba(41, 20, 20, 0.3);
     /* border-radius: 30px; */
@@ -69,6 +76,7 @@ caption{
 ul{
     list-style: none;
     overflow: hidden;
+    margin-top: 0;
 }
 
 a,#main{
