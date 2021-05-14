@@ -11,13 +11,13 @@
 
     <title> MY first page </title>
     <Script>
-      function openNav() {
+  function openNav() {
     document.getElementById("mySidebar").style.width = "200px";
-    document.getElementById("main").style.marginLeft = "200px";
-    document.getElementById("table-div").style.marginLeft = "200px";
+    document.getElementById("main").style.marginLeft = "100px";
+    // document.getElementById("table-div").style.marginLeft = "200px";
     document.getElementById("openbtn").style.visibility="hidden";
     document.getElementById("closebtn").style.visibility="visible";
-    document.getElementById("welcome").style.marginLeft = "200px"; 
+    // document.getElementById("welcome").style.marginLeft = "200px"; 
     
     
 }
@@ -25,12 +25,11 @@
 function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
-    document.getElementById("table-div").style.marginLeft = "0";
+    // document.getElementById("table-div").style.marginLeft = "0";
     document.getElementById("openbtn").style.visibility="visible";
     document.getElementById("closebtn").style.visibility="hidden";
-    document.getElementById("welcome").style.marginLeft = "0"; 
+    // document.getElementById("welcome").style.marginLeft = "0"; 
 }
-
 
     </Script>
 </head>
@@ -42,8 +41,9 @@ function closeNav() {
         <nav class="navbar">
             <ul> 
                 <li><div id="main">
-                    <button class="openbtn" id="openbtn" onclick="openNav()" ><i class="fas fa-bars"></i></button>  
-                    <button class="closebtn" id="closebtn" onclick="closeNav()" ><i class="fas fa-times"></i></i></button>  
+                    <a class="openbtn" id="openbtn" onclick="openNav()"><i class="fas fa-bars" style="margin: 0;"></i></a> 
+                    <a class="closebtn" id="closebtn" onclick="closeNav()"><i class="fas fa-times" style="margin: 0;"></i></a>
+                      
                 </div></li>
                 <li><a title="home" href="#"><i class="fas fa-home"></i>home</a></li>
                 <li><a href="#">learning</a></li>
@@ -126,7 +126,7 @@ function closeNav() {
 
 
         </table>
-        <table>
+        <!-- <table>
             <caption>student list</caption>
 
             <tr>
@@ -184,7 +184,7 @@ function closeNav() {
 
 
 
-        </table>
+        </table> -->
     </div>
     
 </body>
